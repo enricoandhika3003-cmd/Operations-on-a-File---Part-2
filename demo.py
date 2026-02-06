@@ -60,7 +60,8 @@ input_file.close()
 output_file.close()
 
 file = open('numbers_updated.file', 'r')
-file.read()
+print("Without repeated numbers: ")
+print(file.read())
 file.close()
 
 #ABC123
@@ -73,6 +74,7 @@ letters = file2.read()
 file2.close()
 
 ABC123 = numbers + "\n" + letters
+print("ABC123: ")
 print(ABC123)
 
 file3 = open('ABC123.file', 'w')
