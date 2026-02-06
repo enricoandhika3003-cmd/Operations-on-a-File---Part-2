@@ -59,14 +59,11 @@ for line in input_file:
 input_file.close()
 output_file.close()
 
-with open('numbers_updated.file', 'r') as file:
-    print("Remove repeated numbers: ")
-    cont = file.readlines()
-    for line in cont:
-        word = line.split()
-        print(word)
+file = open('numbers_updated.file', 'r')
+file.read()
 file.close()
 
+#ABC123
 file1 = open('numbers_updated.file', 'r')
 numbers = file1.read()
 file1.close()
